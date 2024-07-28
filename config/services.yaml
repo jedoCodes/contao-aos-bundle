@@ -1,0 +1,10 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: true
+
+  JedoCodes\AnimateOnScrollBundle\EventListener\GetContentElementListener:
+    arguments:
+      - "@request_stack"
+      - "@contao.routing.scope_matcher"

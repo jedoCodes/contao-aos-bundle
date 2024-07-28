@@ -1,0 +1,3 @@
+services:
+  JedoCodes\AnimateOnScrollBundle\EventListener\AnimateOnScrollHookListener:
+    public: true

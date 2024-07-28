@@ -1,0 +1,6 @@
+<?php $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/animateonscroll/dist/aos.min.js'; ?>
+<?php $GLOBALS['TL_CSS'][] = 'bundles/animateonscroll/dist/aos.min.css'; ?>
+
+<script>
+    AOS.init({});
+</script>

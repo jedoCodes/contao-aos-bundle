@@ -1,0 +1,45 @@
+{
+  "name": "jedocodes/contao-aos-bundle",
+  "description": "Animate content elements with the AnimateOnScroll library",
+  "keywords": ["contao", "aos", "animate","scroll","viewport"],
+  "type": "contao-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "jedoCodes",
+      "email": "dev@jedo.codes",
+      "homepage": "https://jedo.codes",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "contao/core-bundle": "^4.13 || ^5.0"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.16"
+  },
+  "autoload": {
+    "psr-4": {
+      "JedoCodes\\AnimateOnScrollBundle\\": "src/"
+    },
+    "classmap": [
+      "contao/"
+    ],
+    "exclude-from-classmap": [
+      "contao/config/",
+      "contao/dca/",
+      "contao/languages/",
+      "contao/templates/",
+      "contao/themes/"
+    ]
+  },
+  "extra": {
+    "contao-manager-plugin": "JedoCodes\\AnimateOnScrollBundle\\ContaoManager\\Plugin"
+  },
+  "support": {
+    "issues": "https://gitlab.com/jedocodes/contao-aos-bunlde/issues",
+    "source": "https://gitlab.com/jedocodes/contao-aos-bunlde",
+    "docs": "https://docs.jedo.codes/contao-aos"
+  }
+}
