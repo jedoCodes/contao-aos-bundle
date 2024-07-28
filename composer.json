@@ -3,7 +3,7 @@
   "description": "Animate content elements with the AnimateOnScroll library",
   "keywords": ["contao", "aos", "animate","scroll","viewport"],
   "type": "contao-bundle",
-  "license": "MIT",
+"license": "LGPL-3.0-or-later",
   "authors": [
     {
       "name": "jedoCodes",
