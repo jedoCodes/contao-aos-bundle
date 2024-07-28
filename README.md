@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/jedoCodes/package-metadata/3728dc750472881a48aca6075efd7f4dc8af7356/meta/jedocodes/logo.svg" alt="Logo" width="250" height="auto">
+
 # contao-aos
 
 Animate content elements on scroll using [AOS](https://github.com/michalsnik/aos):
@@ -16,3 +18,7 @@ composer require jedocodes/contao-aos-bundle
 2. Open the install tool and do a database update.
 
 3. Include the **js_aos** template in the page layout.
+
+### Screenshot
+
+![ContaoBackend options](public/images/contao-backend.png)
