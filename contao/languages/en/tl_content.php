@@ -47,3 +47,7 @@ $GLOBALS['TL_LANG']['tl_content']['aosOnce'] = array(
     "Trigger once",
     "Choose wheter animation should fire once, or every time you scroll up/down to element"
 );
+$GLOBALS['TL_LANG']['tl_content']['aosMirror'] = [
+    "Start scrolling back",
+    "Makes the animation retrigger even when scrolling back"
+];

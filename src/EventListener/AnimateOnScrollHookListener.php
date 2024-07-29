@@ -56,6 +56,7 @@ class AnimateOnScrollHookListener
             'data-aos-easing'           => $object->aosEasing,
             'data-aos-anchor'           => $object->aosAnchor,
             'data-aos-once'             => $object->aosOnce,
+            'data-aos-mirror'           => $object->aosMirror,
             'data-aos-anchor-placement' => $object->aosAnchorPlacement,
 
         ], function ($v) { return null !== $v && '' !== $v; });

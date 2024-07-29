@@ -44,7 +44,8 @@ class GetContentElementListener
             'anchor' => $contentModel->aosAnchor,
             'anchor-placement' => $contentModel->aosAnchorPlacement,
             'offset' => $contentModel->aosOffset,
-            'once' => $contentModel->aosOnce
+            'once' => $contentModel->aosOnce,
+            'mirror' => $contentModel->aosMirror
         ];
 
         $aos = array_filter($aos, static function ($value) {

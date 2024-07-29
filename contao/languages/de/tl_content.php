@@ -47,6 +47,12 @@ $GLOBALS['TL_LANG']['tl_content']['aosOnce'] = [
     "Einmalig staren",
     "Wählen Sie, ob die Animation einmal oder jedes Mal, wenn Sie zu einem Element nach oben/unten scrollen, ausgelöst werden soll"
 ];
+
+$GLOBALS['TL_LANG']['tl_content']['aosMirror'] = [
+    "Zurückscrollen staren",
+    "Lässt die Animation auch beim Zurückscrollen erneut auslösen"
+];
+
 $GLOBALS['TL_LANG']['tl_content']['aosAnimationneffects'] = [
 	"AnimationOnScroll Animation nutzen",
 	"Klicken Sie hier um die AOS Library zu aktivieren"

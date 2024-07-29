@@ -14,7 +14,7 @@ use JedoCodes\AnimateOnScrollBundle\EventListener\DataContainer\ContentFieldsLis
 
 
 $GLOBALS['TL_DCA']['tl_content']['palettes']['__selector__'][] = 'aosAnimationneffects';
-$GLOBALS['TL_DCA']['tl_content']['subpalettes']['aosAnimationneffects'] = 'aosAnimation,aosEasing,aosDuration,aosDelay,aosAnchor,aosAnchorPlacement,aosOffset,aosOnce';
+$GLOBALS['TL_DCA']['tl_content']['subpalettes']['aosAnimationneffects'] = 'aosAnimation,aosEasing,aosDuration,aosDelay,aosAnchor,aosAnchorPlacement,aosOffset,aosOnce, aosMirror';
 
 
 
@@ -118,8 +118,15 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['aosOnce'] = [
     'label' => &$GLOBALS['TL_LANG']['tl_content']['aosOnce'],
     'exclude' => true,
     'inputType' => 'checkbox',
-    'eval' => ['tl_class' => 'w50 m12'],
+    'eval' => ['tl_class' => 'w25 m12'],
     'sql' => "char(1) NOT NULL default ''"
 ];
 
+$GLOBALS['TL_DCA']['tl_content']['fields']['aosMirror'] = [
+    'label' => &$GLOBALS['TL_LANG']['tl_content']['aosMirror'],
+    'exclude' => true,
+    'inputType' => 'checkbox',
+    'eval' => ['tl_class' => 'w25 m12'],
+    'sql' => "char(1) NOT NULL default ''"
+];
 
