@@ -52,7 +52,7 @@ class AnimateOnScrollHookListener
             'data-aos'                  => $object->aosAnimation,
             'data-aos-offset'           => $object->aosOffset,
             'data-aos-delay'            => $object->aosDelay,
-            'data-aos-duratio'          => $object->aosDuration,
+            'data-aos-duration'          => $object->aosDuration,
             'data-aos-easing'           => $object->aosEasing,
             'data-aos-anchor'           => $object->aosAnchor,
             'data-aos-once'             => $object->aosOnce,
